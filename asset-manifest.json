@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Mod-Task-6/static/css/main.39ddf18f.css",
+    "main.js": "/Mod-Task-6/static/js/main.77be3f6e.js",
+    "static/media/photo_2023-05-10_10-46-40.jpg": "/Mod-Task-6/static/media/photo_2023-05-10_10-46-40.4e9bf2a74c7989e11bde.jpg",
+    "static/media/web design- creativezaiid 1.jpg": "/Mod-Task-6/static/media/web design- creativezaiid 1.fa2c675e4b168e237c70.jpg",
+    "static/media/web design- creativezaiid 2.jpg": "/Mod-Task-6/static/media/web design- creativezaiid 2.ed551682d0a8a17fa004.jpg",
+    "static/media/Frame 1 1.jpg": "/Mod-Task-6/static/media/Frame 1 1.d1d726d5785c5be70b9d.jpg",
+    "static/media/0_UnaZKWRx_J94eTVw 1.jpg": "/Mod-Task-6/static/media/0_UnaZKWRx_J94eTVw 1.94605eb01f5f05f1e44f.jpg",
+    "index.html": "/Mod-Task-6/index.html",
+    "main.39ddf18f.css.map": "/Mod-Task-6/static/css/main.39ddf18f.css.map",
+    "main.77be3f6e.js.map": "/Mod-Task-6/static/js/main.77be3f6e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39ddf18f.css",
+    "static/js/main.77be3f6e.js"
+  ]
+}
