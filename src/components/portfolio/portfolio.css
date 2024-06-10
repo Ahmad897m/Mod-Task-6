@@ -1,0 +1,121 @@
+.portfolio{
+
+
+    .container{
+
+
+        .content{
+
+
+            .heading{
+
+                margin-bottom: 60px;
+                h2{
+                    font-size: 30px;
+                    color: #006AB8;
+                    line-height: 70px;
+                    font-weight: 700;
+                }
+                p{
+                    line-height: 30px;
+                    font-size: 26px;
+                    font-weight: 800;
+                    color: #000000;
+                }
+            }
+
+            .projects{
+                display: flex;
+                flex-direction: column;
+                gap: 50px;
+                
+
+                .project{
+
+                    display: flex;
+                    justify-content: space-between;
+
+                    .info{
+
+                        text-align: center;
+                        width: 350px;
+                        flex-direction: column;
+                        display: flex;
+                        justify-content: space-evenly;
+
+                        h3{
+                            font-size: 26px;
+                            font-weight: 800;
+                            line-height: 35px;
+                            color: #000000;
+                        }
+
+                        p{
+                            font-weight: 500;
+                            font-size: 20px;
+                            line-height: 40px;
+                            color: #666666;
+                        }
+                        .framwork {
+                            
+                            ul{
+                                display: flex;
+                                justify-content: space-around;
+                                align-items: center;
+                                li{
+                                        font-size: 20px;
+                                        font-weight: 800;
+                                        line-height: 35px;
+                                        color: #000000;
+                                    
+                                }
+                            }
+                        }
+                        .icons {
+
+                            ul{
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+
+                                li{
+                                    
+                                    a {
+                                        display: flex;
+                                        align-items: center;
+                                        gap: 20px;
+                                        font-size: 16px;
+                                        color: #666666;
+                                        img {
+                                            width: 48px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .button {
+                outline: none;
+                margin: auto;
+                display: block;
+                line-height: 50px;
+                margin-top: 50px;
+                border: 2px solid #006AB6;
+                padding: 0px 29px;
+                border-radius: 34px;
+                font-size: 24px;
+                font-weight: 700;
+                color: #006AB6;
+                background: #ffffff;
+                transition: 0.9s;
+
+                &:hover {
+                    color: #ffffff;
+                    background-color: #006AB6;
+                }
+            }
+        }
+    }
+}

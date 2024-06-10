@@ -1,0 +1,184 @@
+.home{
+padding-top: 100px;
+position: relative;
+
+.images img {
+    position: absolute;
+    width: 80px;
+    cursor: pointer;
+
+    }
+    .html {
+        
+        &:hover {
+            animation: HtmlRotate 0.9s ease forwards;
+        }
+    }
+        .css{
+            top: 70%;
+
+            &:hover {
+                animation: CssRotate 1.2s ease forwards;
+            }
+        }
+        .sass {
+            right: 0;
+            top: 45%;
+
+            &:hover {
+                animation: SassRotate 1.2s ease forwards;
+            }
+        }
+        .react{
+            top: 40px;
+            right: 65px;
+            &:hover {
+            animation: ReactRotate 1.2s ease forwards;
+            }
+        }
+        .js {
+            top: 0;
+            right: 50%;
+        }
+        .Twn{
+            top: 40px;
+            left: 18%;
+        }
+
+.container{
+
+    .content{
+
+        .text{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+
+            h2{
+                font-size: 66px;
+                font-weight: 700;
+                line-height: 75px;
+                letter-spacing: 7px;
+                text-align: left;
+                
+                }
+                .image {
+                    width: 220px;
+                    overflow: hidden;
+                    border-radius: 50%;
+                    display: inline-block;
+                    padding: 6px;
+                    /* border: 6px solid; */
+                    background: linear-gradient(180deg, #E44F26 0%, #00C0FD 100%);
+                    box-shadow: 0px 0px 35.5px -3px #33A9DC;
+                    
+                    
+                    
+                    img{
+                        max-width: 100%;
+                        border-radius: 50%;
+                        display: block;
+                        
+                    }
+
+                }
+            }
+
+            .about{
+                font-size: 26px;
+                font-weight: 400;
+                line-height: 46px;
+                text-align: left;     
+                color: #666666;               
+                margin-top: 30px;
+                margin-bottom: 40px;
+            }
+
+            .icons{
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 20px;
+
+                li{
+                    width: 38px;
+                }
+            }
+            .p-line{
+                font-size: 26px;
+                font-weight: 700;
+                letter-spacing: -1px;
+                text-align: left;
+                position: relative;
+                color: #000000;
+                margin-top: 50px;
+
+                &::before {
+                    content: '';
+                    width: 2px;
+                    position: absolute;
+                    height: 100%;
+                    background:  #666666;
+                    left: 20%;
+                    
+                    
+                }
+                
+            }
+        }
+    }
+}
+
+
+
+@keyframes HtmlRotate {
+    from {
+        transform:  rotate(0);
+        }
+        to {
+            
+            transform:  rotate(39.49deg);
+    }
+}
+
+
+
+@keyframes CssRotate {
+    from {
+        transform:  rotate(0);
+        }
+        to {
+            
+            transform:  rotate(164.32deg);
+    }
+}
+
+@keyframes ReactRotate {
+    from {
+        transform:  rotate(0);
+        }
+        to {
+            
+            transform:  rotate(60.27deg);
+    }
+}
+
+@keyframes SassRotate {
+    from {
+        transform:  rotate(0);
+        }
+        to {
+            
+            transform:  rotate(49.04deg);
+    }
+}
+
+
+
+
+
+
+
+
+

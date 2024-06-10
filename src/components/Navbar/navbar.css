@@ -1,0 +1,41 @@
+
+.navBar{
+    padding: 10px 30px;
+    height: 80px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 7px 18px 31px -1px #00000040;
+
+        .logo{
+            
+            h2{
+                font-size: 28px;
+            }
+        }
+
+    .navList{
+
+        .navItems{
+
+            .navItem{
+
+                margin-left: 15px;
+
+
+                .navLink{
+                    padding: 18px;
+                    color: #666666;
+                    font-size: 20px;
+                    transition: 0.9s;
+
+                    &:hover  {
+                        color: #000000;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
